@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bai tap 4</title>
+</head>
+<body>
+<script>
+    let num =prompt("Nhap mot day so tuy y");
+    let fist=0;
+    let last = num.length-1;
+    while (fist<last) {
+        let b= num[fist];
+        num[fist]= num[last];
+        num[last]=b;
+        fist++;
+        last--;
+        document.write(num);
+    }
+</script>
+</body>
+</html>

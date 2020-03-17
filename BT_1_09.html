@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bai  tap so 9</title>
+</head>
+<body>
+<script>
+    let a = [5,6,25,456,25,36,45,3,46,35];
+    let b= [8,7,52,5,'kho','tim','kiemn'];
+    let c=[];
+    // console.log(a.toString());
+    // console.log(b.toString());
+    // c= a.toString()+"," + b.toString();
+    // console.log(c);
+    for (let i=0; i<a.length+b.length; i++){
+        if (i<a.length){
+            c[i]=a[i]
+        }
+        if (i>=a.length){
+            for (let j=0; j<b.length;j++)
+            c[i]=b[j];
+        }
+    } console.log(c);
+</script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bai tap so 8</title>
+</head>
+<body>
+<script>
+    let num = [5,-5,36,25,14,54,38,12,9,-65];
+    let max = num[0];
+    let newNum= [];
+    let count;
+    for (let i=0; i<num.length;i++){
+        if (max<num[i]){
+            max=num[i];
+            count=i;
+        }
+    } console.log(max);
+    console.log(count);
+     newNum.push(max);
+     console.log(newNum);
+
+</script>
+</body>
+</html>
